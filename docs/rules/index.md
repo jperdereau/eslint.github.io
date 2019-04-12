@@ -29,9 +29,9 @@ The `--fix` option on the [command line](../user-guide/command-line-interface#fi
 <tr>
 <td>{% if rule.recommended %}(recommended){% endif %}</td>
 <td>{% if rule.fixable %}(fixable){% endif %}</td>
-<td markdown="1">[{{rule.name}}]({{rule.name}})
+<td markdown="1">{{rule.name}}:
 </td>
-<td markdown="1">{{rule.description}}
+<td markdown="1">2
 </td>
 </tr>
 {% endfor %}
